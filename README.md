@@ -9,6 +9,18 @@ There will be two main folder of name 'data' and 'application_data'
 3. Positive folder will also contain your face images.
 4. Negative one will hold all other different faces not similar to yours. I downloaded the dataset of LFW(Labeled faces in the wild) and extracted it to this folder.
 5. The other folder of 'application_data' will contain 2 sub folders 'input_image' and 'verification_images'. Keep 'input_image' folder empty and copy around 50 images from 'positive' folder and then paste it to 'verification_images' folder. These folders will be used in real time reognition task. 
+
+![WhatsApp Image 2023-03-06 at 01 39 49](https://user-images.githubusercontent.com/108794407/222983367-a484a934-092e-4388-9f55-3ee168d8a780.jpg)
+
+
+
+
+
+# DATASETS
+1. In the code using opencv just generate the anchor and positive images of your face which will directly save to their folders.
+2. For negative images download the tar file from here - http://vis-www.cs.umass.edu/lfw/lfw.tgz and then the code will do rest of the job.
+
+
 # ABOUT
 SIAMESE NETWORK are a type of neural network architecture that learn to compare two inputs and output a similarity score. They consist of two identical subnetworks that share the same weights and are trained on pairs of inputs (e.g., images). During training, the network learns to produce similar output embeddings for similar inputs and dissimilar embeddings for dissimilar inputs. In its research paper shape of input image is 105x105x3 (but here I changed it to 100x100x3) 
 
