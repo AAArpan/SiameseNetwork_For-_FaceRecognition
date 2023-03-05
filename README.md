@@ -9,4 +9,4 @@ The other 'application_data' folder will contain 2 sub folders 'input_image' and
 
 SIAMESE NETWORK are a type of neural network architecture that learn to compare two inputs and output a similarity score. They consist of two identical subnetworks that share the same weights and are trained on pairs of inputs (e.g., images). During training, the network learns to produce similar output embeddings for similar inputs and dissimilar embeddings for dissimilar inputs.
 
-
+Special thanks to - https://www.youtube.com/@NicholasRenotte
